@@ -1,1 +1,1 @@
-# Fitness
+# FitnessBuddy

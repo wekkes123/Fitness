@@ -27,34 +27,33 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
-        android:id="@+id/frameLayout3">
+        android:fitsSystemWindows="true">
 
-
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="@style/Widget.Theme.FitnessApp.ActionBar.Fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
 
             <Button
                 android:id="@+id/dummy_button"
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/dummy_button"
-                android:textColor="#00838F"
-                tools:layout_conversion_absoluteHeight="48dp"
-                tools:layout_editor_absoluteY="683dp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_conversion_absoluteWidth="411dp" />
+                android:textColor="#00838F" />
 
-
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/LoginFoto"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/backgrounds/scenic"
-            tools:layout_conversion_absoluteHeight="276dp"
-            tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_conversion_absoluteWidth="411dp" />
+            android:layout_height="276dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
     </FrameLayout>
 
 </FrameLayout>

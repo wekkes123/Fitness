@@ -5,4 +5,5 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="fitnessbuddy">FitnessBuddy</string>
     <string name="todo">TODO</string>
+    <string name="title_activity_login2">login2</string>
 </resources>

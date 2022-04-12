@@ -3,4 +3,6 @@
     <string name="title_activity_categorie_oef">Categorie_oef</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="fitnessbuddy">FitnessBuddy</string>
+    <string name="todo">TODO</string>
 </resources>
